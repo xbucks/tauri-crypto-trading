@@ -13,8 +13,16 @@ function App() {
 
   return (
     <div className="app">
-      <div>
+      <div className="app-left">
         
+      </div>
+      <div className="app-right">
+        <div className="content">
+
+        </div>
+        <div className="steps">
+          
+        </div>
       </div>
     </div>
   );
