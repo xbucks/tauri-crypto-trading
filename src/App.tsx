@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import News from './components/News';
 import Avatar from './components/Avatar';
+import Card from './components/Card';
 import "./App.scss";
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
       </div>
       <div className="app-right">
         <div className="content">
-
+          <Card />
         </div>
         <div className="steps">
 
