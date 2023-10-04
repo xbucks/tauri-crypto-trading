@@ -6,6 +6,8 @@
   height: 100vh;
 
   &-left {
+    display: flex;
+    flex-direction: column;
     border-right: 1px solid $border;
     padding: 20px;
     width: 400px;
@@ -26,6 +28,9 @@
       .btn {
         border-radius: 25px;
       }
+    }
+    .news-content {
+      flex: 1;
     }
   }
   &-right {

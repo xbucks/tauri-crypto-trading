@@ -3,6 +3,7 @@ import { invoke } from "@tauri-apps/api/tauri";
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import News from './components/News';
+import Avatar from './components/Avatar';
 import "./App.scss";
 
 function App() {
@@ -26,11 +27,15 @@ function App() {
           <Button variant="secondary">Unread</Button>
         </ButtonGroup>
 
-        <News title="Ripple" point={800} />
-        <News className="active" title="Ripple" point={800} />
-        <News title="Ripple" point={800} />
-        <News title="Ripple" point={800} />
-        <News title="Ripple" point={800} />
+        <div className="news-content">
+          <News title="Ripple" point={800} />
+          <News className="active" title="Ripple" point={800} />
+          <News title="Ripple" point={800} />
+          <News title="Ripple" point={800} />
+          <News title="Ripple" point={800} />
+        </div>
+
+        <Avatar fullname="Doodle" username="@doodle" />
       </div>
       <div className="app-right">
         <div className="content">
