@@ -45,8 +45,30 @@
       width: 100%;
     }
     .steps {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
       width: 100%;
       height: 200px;
+
+      .title {
+        font-size: 32px;
+        font-weight: 800;
+      }
+      .status {
+        margin-left: auto;
+        height: 50px;
+  
+        .btn {
+          width: 80px;
+        }
+      }
+      .confirm {
+        margin-left: auto;
+        margin-top: auto;
+        width: 120px;
+        height: 50px;
+      }
     }
   }
 }

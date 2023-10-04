@@ -43,7 +43,16 @@ function App() {
           <Card />
         </div>
         <div className="steps">
-
+          <div className="d-flex">
+            <span className="title">Step 1: Probability</span>
+            <ButtonGroup className="status">
+              <Button variant="primary">High</Button>
+              <Button variant="secondary">Medium</Button>
+              <Button variant="secondary">Low</Button>
+              <Button variant="secondary">Custom</Button>
+            </ButtonGroup>
+          </div>
+          <div className="d-flex flex-1"><Button className="confirm" variant="primary">Confirm</Button></div>
         </div>
       </div>
     </div>
