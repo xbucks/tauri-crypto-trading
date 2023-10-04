@@ -1,12 +1,23 @@
+@import "./colors.scss";
+
 .app {
   display: flex;
   width: 100vw;
   height: 100vh;
 
   &-left {
-    border-right: 1px solid grey;
+    border-right: 1px solid $border;
+    padding: 20px;
     width: 400px;
     height: 100%;
+    .head {
+      color: black;
+      font-weight: 800;
+      font-size: 24px;
+    }
+    .info {
+      color: $background;
+    }
   }
   &-right {
     display: flex;
@@ -15,7 +26,7 @@
 
     .content {
       flex: 1;
-      border-bottom: 1px solid grey;
+      border-bottom: 1px solid $border;
       width: 100%;
     }
     .steps {

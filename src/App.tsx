@@ -14,14 +14,15 @@ function App() {
   return (
     <div className="app">
       <div className="app-left">
-        
+        <div className="head">Today: 4 Oct 23</div>
+        <span className="info">Last Updated: 12 minutes ago</span>
       </div>
       <div className="app-right">
         <div className="content">
 
         </div>
         <div className="steps">
-          
+
         </div>
       </div>
     </div>
